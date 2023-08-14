@@ -42,4 +42,4 @@ jobs:
         run: dart test
 
       - name: Run tests
-        run: dart test
+        uses: jeanluc243/Flutter-Deployment@0.1
