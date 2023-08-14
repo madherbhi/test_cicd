@@ -1,7 +1,4 @@
-on:
-  workflow_dispatch:
-
-
+on: [push]
 name: Build  
 jobs:
   install-and-test:
