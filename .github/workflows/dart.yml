@@ -45,7 +45,7 @@ jobs:
    
    # Upload generated file to the releases section.
       - name: Release Apps
-        uses: ncipollo/release-action@v1
+        uses: actions/release-action@v1
         with:
           tag: ${{ env.APP_VERSION }}
           name: ${{ env.APP_VERSION }}
